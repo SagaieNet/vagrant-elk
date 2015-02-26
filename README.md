@@ -26,6 +26,15 @@ vagrant ssh
 logstash -f /vagrant/logstash/conf/echo.conf
 ```
 
+###### Kibana
+A simple log file is provided for testing.  Run kibana manually (adding .init shortly, sorry!)
+
+```Shell
+vagrant ssh
+cd /var/www/kibana
+sudo bin/kibana
+```
+
 ## Vagrant Controls
 ###### Start box
 ```Shell
