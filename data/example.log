@@ -1,0 +1,3 @@
+Hello, this is an example log you can use to test logstash echo.conf.
+You should see each line as a log event.
+Bye bye.
